@@ -1,0 +1,280 @@
+.titulo {
+  height: 55px;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #000;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(231, 140, 3, 0.884);
+  animation-name: agrandar;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1; }
+
+.fondo {
+  background-color: rgba(231, 140, 3, 0.884); }
+
+.enlace {
+  height: 30px;
+  font-size: 16px;
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 25px;
+  color: rgba(231, 140, 3, 0.884);
+  margin: 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #000; }
+  .enlace:hover {
+    color: #ff3c00; }
+
+.titulos-pag {
+  color: #000; }
+
+.letras {
+  color: #000;
+  margin: 5px; }
+
+@keyframes agrandar {
+  0% {
+    font-size: 25px;
+    height: 40px; }
+  100% {
+    font-size: 50px;
+    height: 55px; } }
+
+.subtitulo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  width: 650px;
+  text-align: start; }
+
+.imagen-index {
+  position: relative;
+  float: right;
+  height: 400px;
+  width: 400px;
+  border: 3px solid;
+  margin: 5px; }
+
+.presentacion {
+  font-size: 25px;
+  color: #000; }
+
+.cabeza-img {
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  margin: 5px;
+  margin-right: 225px; }
+
+.cuello-img {
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  margin: 25px; }
+
+.tronco-img {
+  height: 300px;
+  width: 400px;
+  border: 3px solid;
+  margin-left: 500px; }
+
+.img-razas {
+  height: 300px;
+  width: 400px;
+  border: 3px solid;
+  float: left;
+  margin: 5px; }
+
+.img-pelaje {
+  height: 350px;
+  width: 400px;
+  border: 3px solid;
+  margin-left: 480px;
+  margin-bottom: 15px;
+  margin-top: 5px; }
+
+.subtitulos-pag {
+  color: #000; }
+
+.microtitulos-pag {
+  color: #000; }
+
+@media screen and (max-width: 1025px) {
+  .enlace {
+    margin: 50px;
+    padding: 0px 20px; }
+  .titulo {
+    height: 60px;
+    animation-name: agrandar;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1; }
+  @keyframes agrandar {
+    0% {
+      height: 40px; }
+    100% {
+      height: 60px; } }
+  .cabeza-img {
+    margin-right: 133px; }
+  .cuello-img {
+    margin: 0px; }
+  .tronco-img {
+    margin-left: 300px; }
+  .img-pelaje {
+    margin-left: 290px;
+    width: 450px; } }
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .enlace {
+    height: 25px;
+    width: 100px; }
+  .cabeza-img {
+    margin: 20px; }
+  .tronco-img {
+    height: 200px;
+    width: 300px;
+    margin-left: 200px; }
+  .img-razas {
+    height: 250px;
+    width: 350px; }
+  .img-pelaje {
+    height: 250px;
+    width: 300px;
+    margin-left: 245px; } }
+
+@media screen and (max-width: 450px) {
+  .subtitulo {
+    font-size: 25px; }
+  .presentacion {
+    font-size: 15px; }
+  .imagen-index {
+    width: 200px;
+    height: 200px; }
+  .titulo {
+    font-size: 30px;
+    height: 40px; }
+  .enlace {
+    font-size: 15px;
+    height: 20px;
+    width: 100px; }
+  @keyframes agrandar {
+    0% {
+      font-size: 15px;
+      height: 30px; }
+    100% {
+      font-size: 30px;
+      height: 40px; } }
+  .titulos-pag {
+    font-size: 25px; }
+  .letras {
+    font-size: 14px; }
+  .cabeza-img {
+    height: 125px;
+    width: 125px;
+    margin: 5px; }
+  .cuello-img {
+    height: 130px;
+    width: 130px;
+    margin: 2px; }
+  .tronco-img {
+    height: 150px;
+    width: 200px;
+    margin-left: 115px; }
+  .img-razas {
+    width: 400px; }
+  .img-pelaje {
+    height: 200px;
+    width: 300px;
+    margin-left: 55px; }
+  .subtitulos-pag {
+    font-size: 20px; }
+  .microtitulos-pag {
+    font-size: 18px; } }
+
+@media screen and (max-width: 380px) {
+  .titulos-pag {
+    font-size: 20px; }
+  .letras {
+    font-size: 12px; }
+  .cabeza-img {
+    height: 110px;
+    width: 110px;
+    margin: 5px; }
+  .cuello-img {
+    height: 115px;
+    width: 115px;
+    margin: 2px; }
+  .tronco-img {
+    height: 150px;
+    width: 200px;
+    margin-left: 90px; }
+  .img-razas {
+    width: 350px;
+    height: 225px; }
+  .img-pelaje {
+    width: 250px;
+    height: 175px;
+    margin-left: 55px; }
+  .subtitulos-pag {
+    font-size: 18px; }
+  .microtitulos-pag {
+    font-size: 15px; } }
+
+@media screen and (max-width: 325px) {
+  .subtitulo {
+    font-size: 20px; }
+  .presentacion {
+    font-size: 14px; }
+  .imagen-index {
+    width: 175px;
+    height: 175px; }
+  .titulo {
+    font-size: 25px;
+    height: 30px; }
+  .enlace {
+    font-size: 10px;
+    height: 15px;
+    width: 70px; }
+  @keyframes agrandar {
+    0% {
+      font-size: 10px;
+      height: 20px; }
+    100% {
+      font-size: 25px;
+      height: 30px; } }
+  .titulos-pag {
+    font-size: 20px; }
+  .letras {
+    font-size: 12px; }
+  .cabeza-img {
+    height: 110px;
+    width: 101px;
+    margin: 1px; }
+  .cuello-img {
+    height: 115px;
+    width: 101px;
+    margin: 1px; }
+  .tronco-img {
+    height: 125px;
+    width: 170px;
+    margin-left: 80px; }
+  .img-razas {
+    width: 300px;
+    height: 200px; }
+  .img-pelaje {
+    height: 150px;
+    width: 225px;
+    margin-left: 42px; }
+  .subtitulos-pag {
+    font-size: 18px; }
+  .microtitulos-pag {
+    font-size: 15px; } }

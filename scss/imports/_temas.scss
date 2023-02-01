@@ -1,0 +1,46 @@
+.cabeza-img{
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  margin: 5px;
+  margin-right: 225px;
+}
+  
+.cuello-img{
+  height: 200px;
+  width: 200px;
+  border: 3px solid;
+  margin: 25px;
+}
+
+.tronco-img{
+  height: 300px;
+  width: 400px;
+  border: 3px solid;
+  margin-left: 500px;
+}
+
+.img-razas{
+  height: 300px;
+  width: 400px;
+  border: 3px solid;
+  float: left;
+  margin: 5px;
+}
+
+.img-pelaje{
+  height: 350px;
+  width: 400px;
+  border: 3px solid;
+  margin-left: 480px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.subtitulos-pag{
+  color: $negro;
+}
+
+.microtitulos-pag{
+  color: $negro;
+}

@@ -1,0 +1,50 @@
+.titulo{
+    height: 55px;
+    font-size: $gigante;
+    font-weight: bold;
+    background-color: $negro;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: $naranja;
+  
+    animation-name: agrandar;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+  }
+  .fondo {
+  background-color: $naranja;
+    }
+  .enlace {
+    height: 30px;
+    font-size: $medio-chico;
+    background-color: $negro;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 25px;
+    color: $naranja;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px $negro;
+    &:hover{
+      color: $naranjahover;
+    }
+  }
+  .titulos-pag{
+    color: $negro;
+  }
+  .letras{
+    color: $negro;
+    margin: 5px;
+  }
+  @keyframes agrandar{
+    0%{
+        font-size: $muy-grande;
+        height: 40px;
+    }
+    100%{
+        font-size: $gigante;
+        height: 55px;
+    }
+  }

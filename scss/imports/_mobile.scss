@@ -1,0 +1,240 @@
+@media screen and (max-width: 1025px){
+    .enlace{
+        margin: 50px;
+        padding: 0px 20px;
+    }
+    .titulo{
+        height: 60px;
+        animation-name: agrandar;
+        animation-timing-function: ease;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+    }
+    @keyframes agrandar{
+        0%{
+            height: 40px;
+        }
+        100%{
+            height: 60px;
+        }
+    }
+    .cabeza-img{
+        margin-right: 133px;
+    }
+    .cuello-img{
+        margin: 0px;
+    }
+    .tronco-img{
+        margin-left: 300px;
+    }
+    .img-pelaje{
+        margin-left: 290px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 800px) { 
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .enlace{ 
+        height: 25px;
+        width: 100px;
+    }
+
+    .cabeza-img{
+        margin: 20px;
+    }
+    .tronco-img{
+        height: 200px;
+        width: 300px;
+        margin-left: 200px;
+    }
+    .img-razas{
+        height: 250px;
+        width: 350px;
+    }
+    .img-pelaje{
+        height: 250px;
+        width: 300px;
+        margin-left: 245px;
+    }
+}
+  
+@media screen and (max-width: 450px){
+    .subtitulo{
+        font-size: $muy-grande;
+    }
+    .presentacion{
+        font-size: $chico;
+    }
+    .imagen-index{
+        width: 200px;
+        height: 200px;
+    }
+    .titulo{
+        font-size: $ultra-grande;
+        height: 40px;
+    }
+    .enlace{
+        font-size: $chico;
+        height: 20px;
+        width: 100px;
+    }
+    @keyframes agrandar {
+    0%{
+        font-size: $chico;
+        height: 30px;
+    }
+    100%{
+        font-size: $ultra-grande;
+        height: 40px;
+    }        
+    }
+    .titulos-pag{
+        font-size: $muy-grande;
+    }
+    .letras{
+        font-size: $muy-chico;
+    }
+    
+    .cabeza-img{
+        height: 125px;
+        width: 125px;
+        margin: 5px;
+    }
+    .cuello-img{
+        height: 130px;
+        width: 130px;
+        margin: 2px;
+    }
+    .tronco-img{
+        height: 150px;
+        width: 200px;
+        margin-left: 115px;
+    }
+    .img-razas{
+        width: 400px;
+    }
+    .img-pelaje{
+        height: 200px;
+        width: 300px;
+        margin-left: 55px;
+    }
+    .subtitulos-pag{
+        font-size: $grande;
+    }
+    .microtitulos-pag{
+        font-size: $medio-grande;
+    }
+}
+
+@media screen and (max-width: 380px ) {
+    .titulos-pag{
+        font-size: $grande;
+    }
+    .letras{
+        font-size: $ultra-chico;
+    }
+    .cabeza-img{
+        height: 110px;
+        width: 110px;
+        margin: 5px;
+    }
+    .cuello-img{
+        height: 115px;
+        width: 115px;
+        margin: 2px;
+    }
+    .tronco-img{
+        height: 150px;
+        width: 200px;
+        margin-left: 90px;
+    }
+    .img-razas{
+        width: 350px;
+        height: 225px;
+    }
+    .img-pelaje{
+        width: 250px;
+        height: 175px;
+        margin-left: 55px;
+    }
+    .subtitulos-pag{
+        font-size: $medio-grande;
+    }
+    .microtitulos-pag{
+        font-size: $chico;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .subtitulo{
+        font-size: $grande;
+    }
+    .presentacion{
+        font-size: $muy-chico;
+    }
+    .imagen-index{
+        width: 175px;
+        height: 175px;
+    }
+    .titulo{
+        font-size: $muy-grande;
+        height: 30px;
+    }
+    .enlace{
+        font-size: $diminuto;
+        height: 15px;
+        width: 70px;
+    }
+    @keyframes agrandar {
+        0%{
+            font-size: $diminuto;
+            height: 20px;
+        }
+        100%{
+            font-size: $muy-grande;
+            height: 30px;
+        }
+    }
+    .titulos-pag{
+        font-size: $grande;
+    }
+    .letras{
+        font-size: $ultra-chico;
+    }
+    .cabeza-img{
+        height: 110px;
+        width: 101px;
+        margin: 1px;
+    }
+    .cuello-img{
+        height: 115px;
+        width: 101px;
+        margin: 1px;
+    }
+    .tronco-img{
+        height: 125px;
+        width: 170px;
+        margin-left: 80px;
+    }
+    .img-razas{
+        width: 300px;
+        height: 200px;
+    }
+    .img-pelaje{
+        height: 150px;
+        width: 225px;
+        margin-left: 42px;
+    }
+    .subtitulos-pag{
+        font-size: $medio-grande;
+    }
+    .microtitulos-pag{
+        font-size: $chico;
+    }
+}

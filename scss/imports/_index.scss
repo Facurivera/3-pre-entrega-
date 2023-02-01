@@ -1,0 +1,19 @@
+.subtitulo{
+    font-size: $gigante;
+    font-weight: bold;
+    color: $negro;
+    width: 650px;
+    text-align: start;
+  }
+  .imagen-index{ 
+    position: relative;
+    float: right;
+    height: 400px;
+    width: 400px;
+    border: 3px solid;
+    margin: 5px;
+  }
+  .presentacion {
+    font-size: $muy-grande;
+    color: $negro;
+  }
