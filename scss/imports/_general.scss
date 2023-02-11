@@ -1,11 +1,12 @@
 .titulo{
-    height: 55px;
+    height: 60px;
     font-size: $gigante;
     font-weight: bold;
     background-color: $negro;
     text-align: center;
     border-radius: 10px;
     box-shadow: $naranja;
+    color: $naranja;
   
     animation-name: agrandar;
     animation-timing-function: ease;
@@ -45,6 +46,6 @@
     }
     100%{
         font-size: $gigante;
-        height: 55px;
+        height: 60px;
     }
   }

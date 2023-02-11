@@ -1,11 +1,12 @@
 .titulo {
-  height: 55px;
+  height: 60px;
   font-size: 50px;
   font-weight: bold;
   background-color: #000;
   text-align: center;
   border-radius: 10px;
   box-shadow: rgba(231, 140, 3, 0.884);
+  color: rgba(231, 140, 3, 0.884);
   animation-name: agrandar;
   animation-timing-function: ease;
   animation-duration: 2s;
@@ -42,7 +43,7 @@
     height: 40px; }
   100% {
     font-size: 50px;
-    height: 55px; } }
+    height: 60px; } }
 
 .subtitulo {
   font-size: 50px;
